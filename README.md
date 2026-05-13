@@ -2,23 +2,25 @@
 
 <br />
 
-# ⚡ UpSkillr
+<h1>⚡ UpSkillr</h1>
 
-### *The Skill-Exchange Economy for Developers*
+<h3><em>The Skill-Exchange Economy for Developers</em></h3>
 
-**Learn by Teaching. Grow by Sharing. Build Together.**
+<p><strong>Learn by Teaching. Grow by Sharing. Build Together.</strong></p>
 
 <br />
 
 [![Status](https://img.shields.io/badge/Status-Active%20Development-6366f1?style=for-the-badge)](https://github.com/yourusername/upskillr)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](./LICENSE)
-[![Node](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js)](https://nodejs.org)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)](https://mongodb.com/atlas)
+[![Node](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/atlas)
+[![Socket.io](https://img.shields.io/badge/Socket.io-4-010101?style=for-the-badge&logo=socket.io)](https://socket.io)
 
 <br />
 
-[**Explore Features**](#-core-features) · [**Quick Start**](#-getting-started) · [**API Docs**](#-api-documentation) · [**Roadmap**](#-roadmap) · [**Contribute**](#-contributing)
+[**The Problem**](#-the-problem-were-solving) · [**Our Solution**](#-our-solution) · [**Features**](#-core-features) · [**Tech Stack**](#%EF%B8%8F-technology-stack) · [**Quick Start**](#-getting-started) · [**API**](#-api-overview) · [**Roadmap**](#%EF%B8%8F-roadmap) · [**Contribute**](#-contributing)
 
 <br />
 
@@ -30,141 +32,159 @@
 
 > **The tech industry has a knowledge hoarding problem.**
 
-Every day, millions of developers sit on valuable expertise — React patterns they've perfected, system design knowledge they've hard-won, DevOps tricks that took months to learn — and that knowledge goes nowhere.
+Every day, millions of developers sit on hard-won expertise — React patterns perfected over years, system design intuition built through failures, DevOps shortcuts that saved entire sprints. And most of that knowledge goes nowhere.
 
 At the same time, developers trying to level up are left with three broken options:
 
 | Option | The Reality |
 |--------|-------------|
-| 📺 Watch tutorials | Passive learning. No real feedback. No accountability. |
-| 💸 Pay for bootcamps | $10,000–$20,000 price tags. One-size-fits-all curriculum. |
-| 🙏 Find a mentor | Cold outreach. Low reply rates. Expensive hourly rates. |
+| 📺 **Online tutorials** | Passive. No feedback. No accountability. You watch, you forget. |
+| 💸 **Bootcamps / courses** | $10,000–$20,000 price tags. One-size-fits-all. Outdated on arrival. |
+| 🙏 **Finding a mentor** | Cold DMs. Low response rates. Expensive hourly rates — if you're lucky. |
 
-**None of these create a feedback loop. None of them scale.**
+**None of these create a genuine feedback loop. None of them scale.**
 
-There's no platform where a senior React developer can *trade* what they know with a DevOps engineer who wants to learn React — and vice versa. Knowledge that should be flowing freely is locked behind paywalls, cold DMs, and luck.
+There's no platform where a senior React engineer can *trade* their expertise with a DevOps engineer who wants to learn React — and vice versa. Knowledge that should flow freely is locked behind paywalls, gatekeepers, and luck.
 
 ---
 
 ## 💡 Our Solution
 
-**UpSkillr** is a **peer-to-peer skill exchange platform** where developers trade expertise directly, mentor each other through a credit economy, and grow together in structured communities.
+**UpSkillr** is a **peer-to-peer skill exchange platform** built for developers. Trade expertise directly, access senior mentors through a fair credit economy, and grow alongside structured communities — all on one platform.
 
-Think of it as **Airbnb for developer knowledge** — where every developer is both a host *and* a guest. You teach what you know, you learn what you need, and the platform handles everything in between.
+Think of it as **Airbnb for developer knowledge** — every developer is both a host *and* a guest. You teach what you know. You learn what you need. The platform handles everything in between.
 
 ```
-You know React.         Someone else knows System Design.
-You want System Design. They want React.
+You know React.           Someone else knows System Design.
+You want System Design.   They want to learn React.
 
-→ UpSkillr connects you. You both walk away smarter. Zero cost.
+→ UpSkillr matches you. A live session is booked.
+  You both walk away smarter. Zero cost. Zero gatekeeping.
 ```
-
-No gatekeeping. No expensive intermediaries. Just developers helping developers — at scale.
 
 ---
 
 ## 🎯 Who Is UpSkillr For?
 
-| Persona | Use Case |
-|---------|----------|
-| 🧑‍💻 **Junior Developer** | Learn in-demand skills from real practitioners, not outdated courses |
-| 🚀 **Mid-Level Engineer** | Fill knowledge gaps, prep for senior roles, expand into new domains |
-| 👨‍🏫 **Senior Developer** | Monetize expertise, build reputation, give back to the community |
-| 🔄 **Career Switcher** | Get guided, practical help transitioning into tech roles |
-| 🏢 **Tech Teams** | Up-skill team members through structured cohort programs |
+| Persona | Pain Point | How UpSkillr Helps |
+|---------|------------|-------------------|
+| 🧑‍💻 **Junior Developer** | Can't afford courses; tutorials don't stick | Learn from real practitioners in live, interactive sessions |
+| 🚀 **Mid-Level Engineer** | Stuck at the same level; needs senior perspective | Fill specific gaps through targeted skill swaps and mentorship |
+| 👨‍🏫 **Senior Developer** | Expertise going unused; wants to give back | Monetize knowledge, build public reputation, grow community impact |
+| 🔄 **Career Switcher** | Needs guided, structured transition into tech | Structured mentorship paths with verified practitioners |
+| 🏢 **Tech Team Lead** | Team skill gaps slow delivery | Up-skill team members through cohort programs without breaking budget |
 
 ---
 
 ## ✨ Core Features
 
-### 🔄 Skill Swap — The Free Peer Exchange
+### 🔄 Skill Swap — Free Peer-to-Peer Exchange
 
-The heart of UpSkillr. Trade skills directly with other developers, **completely free**.
+The heart of UpSkillr. Trade skills directly with other developers, **at zero cost to either party**.
 
-- **1-on-1 Exchanges:** Teach React, learn System Design. Teach Python, learn DevOps.
-- **Real-Time Sessions:** Integrated WebRTC video, live code sharing, and in-session chat.
-- **No Cost:** Both parties earn XP and grow their profile — no credits needed.
-- **Flexible Scheduling:** 30-minute quick calls to multi-hour deep dives.
+- **Mutual 1-on-1 Exchange** — Teach React, learn System Design. Teach Python, learn Kubernetes.
+- **Live Collaboration** — Integrated WebRTC video, real-time in-session chat, persisted message history.
+- **Zero Credits** — Both parties earn XP, session history, and profile credibility.
+- **Flexible Duration** — 30-minute quick unblocking calls to multi-hour deep dives.
+- **AI-Matched Pairing** — Smart matching connects you with the ideal learning partner.
 
-> **Why it matters:** This is peer learning as it was meant to be — mutual, practical, and genuinely valuable for both sides.
+> **Why it matters:** This creates a genuine win-win. Both parties leave with something they didn't have. That's how knowledge compounds.
 
 ---
 
 ### 🎓 Paid Mentorship — Credit-Based Expert Access
 
-For when you need structured guidance from a seasoned professional.
+For when you need structured guidance from someone who's been there.
 
-- **Skill Credits Economy:** Earn credits by teaching; spend them on mentors. Or purchase directly.
-- **Verified Mentors:** Ranked by community ratings, teaching history, and specialization.
-- **Structured Learning:** Code reviews, technical deep dives, career coaching.
-- **Cross-Timezone Booking:** Flexible scheduling built for global teams.
+- **Skill Credits Economy** — Earn credits by teaching; spend them on mentors. Or purchase directly.
+- **Verified Mentor Profiles** — Ranked by community ratings, session count, and specialization depth.
+- **Structured Sessions** — Code reviews, architecture discussions, career coaching, interview prep.
+- **Global Scheduling** — Cross-timezone booking with real availability management.
+- **Session Records** — Complete history of what was covered, for reference and resume building.
 
-**Credit Tiers:**
-
-| Mentor Level | Rate | Best For |
+| Mentor Tier | Rate | Best For |
 |---|---|---|
-| Peer Expert | 5–10 credits/hr | Specific skill gaps, quick unblocking |
-| Mid-Level Pro | 10–20 credits/hr | Career guidance, project mentorship |
-| Industry Expert | 20–50 credits/hr | Architecture reviews, senior prep |
+| 🟢 Peer Expert | 5–10 credits / hr | Quick unblocking, specific skill gaps |
+| 🟡 Mid-Level Pro | 10–20 credits / hr | Career direction, project mentorship |
+| 🔴 Industry Expert | 20–50 credits / hr | Architecture reviews, senior role prep |
 
 ---
 
 ### 👥 Tech Communities & Cohorts — Learn at Scale
 
-Structured, community-driven learning environments for focused growth.
+Intensive, structured learning environments for developers who want accountability and community.
 
-- **30-Day Sprints:** Intensive skill mastery in one domain (React, System Design, DevOps).
-- **Semester Programs:** Long-form, project-based learning with real assessments.
-- **Special Interest Groups:** Niche communities for Web3, ML, embedded systems, and more.
-- **Resource Hub:** Shared notes, recordings, links, and curated materials — all in one place.
-- **Expert Office Hours:** Live sessions with mentors embedded inside your community.
+- **30-Day Sprints** — Focused skill mastery in a single domain (e.g., React, System Design, DevOps).
+- **Semester-Long Programs** — Deep, project-based learning with milestones and real assessments.
+- **Special Interest Groups** — Niche communities for Web3, ML, embedded systems, cloud, and more.
+- **Resource Hub** — Shared notes, session recordings, curated links — all persisted and searchable.
+- **Expert Office Hours** — Mentors embedded in your community for live, drop-in guidance.
+- **Progress Leaderboards** — Cohort-wide tracking to stay accountable and celebrate wins.
 
 ---
 
 ### 🤖 AI-Powered Growth Engine
 
-The intelligence layer that makes UpSkillr uniquely effective.
+The intelligence layer that makes UpSkillr uniquely effective compared to static platforms.
 
-- **Personalized Roadmaps:** AI analyzes your skill profile, goals, and pace — then generates a custom learning path.
-- **Smart Matching:** Connects you with the right peer, mentor, or cohort based on compatibility, not just tags.
-- **Streak & Progress Tracking:** Visualize your growth over time, maintain momentum with streaks and milestones.
-- **Adaptive Recommendations:** The system learns what works for *you* and adjusts continuously.
+- **Personalized Tech Roadmaps** — AI analyzes your skill profile, goals, and learning pace, then generates a custom path with milestones and curated resources.
+- **Smart Matching Algorithm** — Connects you with the right peer, mentor, or cohort based on skill compatibility — not just keyword tags.
+- **Streak & Momentum Tracking** — Maintain 5-day learning streaks for rewards; visualize skill growth over time.
+- **Adaptive Recommendations** — The system learns from your engagement patterns and adjusts suggestions continuously.
+
+---
+
+### 📊 Course Creator Dashboard
+
+Senior developers and mentors can build and publish structured courses directly on the platform.
+
+- Create multi-module courses with rich content.
+- Set credit-based pricing for course enrollment.
+- Track enrollments, completion rates, and learner feedback.
+- Earn passive Skill Credits as learners enroll.
 
 ---
 
 ## 🛠️ Technology Stack
 
-UpSkillr is built for **performance, real-time collaboration, and scale**.
+Built for **real-time performance, developer experience, and production-scale reliability**.
 
 ### Frontend
 
-| Technology | Purpose |
-|---|---|
-| **React 18 + Vite** | Blazing-fast UI with modular component architecture |
-| **Tailwind CSS + Vanilla CSS** | Glassmorphic, premium design system |
-| **Socket.io Client** | Real-time notifications, chat, and live events |
-| **WebRTC** | Peer-to-peer video & audio for sessions |
-| **Context API + Custom Hooks** | Lightweight, scalable state management |
+| Technology | Version | Purpose |
+|---|---|---|
+| **React** | 19 | Component architecture, server component ready |
+| **Vite** | 7 | Sub-100ms HMR, ESM-native build tooling |
+| **Tailwind CSS** | v4 (Vite plugin) | Utility-first styling, zero config required |
+| **React Router DOM** | v7 | Client-side routing with protected route patterns |
+| **Socket.io Client** | 4 | Real-time events, chat, and notifications |
+| **WebRTC** | Native API | Peer-to-peer video and audio for live sessions |
+| **Recharts** | 3 | Analytics and progress visualization |
+| **Axios** | 1 | HTTP client with cookie-based auth interceptors |
 
 ### Backend
 
-| Technology | Purpose |
-|---|---|
-| **Node.js + Express.js** | Scalable REST API and HTTP layer |
-| **MongoDB + Mongoose** | Flexible document store for dynamic skill data |
-| **Socket.io** | WebSocket layer for signaling and real-time events |
-| **JWT Authentication** | Stateless, secure auth with refresh token support |
-| **WebRTC Perfect Negotiation** | Robust peer connection setup and recovery |
+| Technology | Version | Purpose |
+|---|---|---|
+| **Node.js** | 18+ | JavaScript runtime (ESM modules) |
+| **Express** | 5 | HTTP server and REST API routing |
+| **MongoDB + Mongoose** | 9 | Document database with rich schema validation |
+| **Socket.io** | 4 | WebSocket server for real-time collaboration |
+| **JWT** | jsonwebtoken 9 | Stateless auth — access + refresh token pair |
+| **bcrypt** | 6 | Password hashing with configurable salt rounds |
+| **Helmet** | 8 | HTTP security headers |
+| **express-rate-limit** | 8 | API abuse prevention (200 req / 15 min) |
+| **Morgan** | 1 | HTTP request logging |
+| **Nodemon** | 3 | Auto-restart on file changes in development |
 
 ### Infrastructure
 
-| Component | Solution |
-|---|---|
-| **Cloud Hosting** | AWS / Railway / Render |
-| **Database** | MongoDB Atlas (managed, globally distributed) |
-| **CDN** | Cloudflare (edge caching, DDoS protection) |
-| **Email** | SendGrid (transactional emails) |
-| **AI/ML** | OpenAI API (roadmap generation, matching) |
+| Component | Solution | Notes |
+|---|---|---|
+| **Hosting** | Render / Railway / AWS | Node.js process, auto-deploys from GitHub |
+| **Database** | MongoDB Atlas | Managed cloud MongoDB, globally distributed |
+| **CDN** | Cloudflare | Edge caching, DDoS mitigation |
+| **Auth Storage** | httpOnly cookies | XSS-safe token storage, no localStorage |
 
 ---
 
@@ -172,38 +192,95 @@ UpSkillr is built for **performance, real-time collaboration, and scale**.
 
 ```
 📦 UpSkillr/
- ├── 📂 client/                          # React Frontend (Vite)
- │   └── 📂 src/
- │       ├── 📂 components/
- │       │   ├── 📂 ui/                  # Glassmorphic UI primitives
- │       │   ├── 📂 features/            # Feature-specific components
- │       │   │   ├── 📂 SkillSwap/
- │       │   │   ├── 📂 Mentorship/
- │       │   │   ├── 📂 Communities/
- │       │   │   └── 📂 Dashboard/
- │       │   └── 📂 shared/              # Layout, nav, shared components
- │       ├── 📂 pages/
- │       │   ├── Dashboard.jsx           # User hub & upcoming sessions
- │       │   ├── LearningRoom.jsx        # Live session interface
- │       │   ├── Explore.jsx             # Browse peers & mentors
- │       │   ├── Profile.jsx             # Public profile & skill portfolio
- │       │   └── Communities.jsx         # Cohort discovery & joining
- │       ├── 📂 context/                 # Auth, Toast, Dashboard state
- │       ├── 📂 services/                # API, auth, skills, sessions, sockets
- │       ├── 📂 hooks/                   # useAuth, useSocket, useVideoCall
- │       └── 📂 utils/                   # Constants, formatters, validators
+ ├── 📂 client/                              # React 19 + Vite 7 Frontend
+ │   ├── 📂 src/
+ │   │   ├── 📂 pages/                       # One component per route
+ │   │   │   ├── HomePage.jsx               # Public landing page
+ │   │   │   ├── LoginPage.jsx              # Sign-in form
+ │   │   │   ├── SignUp.jsx                 # Registration form
+ │   │   │   ├── DashboardPage.jsx          # Main user hub (sessions, stats, feed)
+ │   │   │   ├── ProfilePage.jsx            # Editable profile & skill listings
+ │   │   │   ├── PublicProfilePage.jsx      # Read-only profile for other users
+ │   │   │   ├── TopMatchesAndSearches.jsx  # AI-matched peer & mentor discovery
+ │   │   │   ├── TopTeachers.jsx            # Mentor leaderboard
+ │   │   │   ├── SessionsPage.jsx           # Session history & management
+ │   │   │   ├── LearningRoom.jsx           # Live session: WebRTC + chat + controls
+ │   │   │   ├── CreditsPage.jsx            # Skill Credits wallet & ledger
+ │   │   │   ├── NotificationsPage.jsx      # Notification center
+ │   │   │   ├── CourseCreatorDashboard.jsx # Course builder for instructors
+ │   │   │   └── AdminDashboard.jsx         # Platform admin panel
+ │   │   ├── 📂 components/
+ │   │   │   ├── 📂 common/                 # ProtectedRoute, shared layout
+ │   │   │   └── 📂 ui/                     # HeroSection, MatchCard, Card,
+ │   │   │                                  # Community, AITechRoadmap, HowItWorks, Footer
+ │   │   ├── 📂 context/
+ │   │   │   ├── Auth.context.jsx           # User auth state + login/logout
+ │   │   │   ├── Toast.context.jsx          # App-wide toast notifications
+ │   │   │   └── Dashboard.context.jsx      # Dashboard-scoped shared state
+ │   │   ├── 📂 hooks/
+ │   │   │   └── useSocket.js               # Socket.io: connect, emit, subscribe
+ │   │   └── 📂 services/                   # Axios API modules (one per domain)
+ │   │       ├── api.js                     # Axios instance, base URL, credentials
+ │   │       ├── auth.service.js            # Login, register, logout, /me
+ │   │       ├── session.service.js         # Session lifecycle
+ │   │       ├── courses.service.js         # Course CRUD & enrollment
+ │   │       ├── credits.service.js         # Credit balance & history
+ │   │       ├── matches.service.js         # Peer/mentor match queries
+ │   │       ├── mentors.service.js         # Mentor listings
+ │   │       ├── review.service.js          # Session reviews & ratings
+ │   │       ├── notification.service.js    # Notification CRUD
+ │   │       ├── chat.service.js            # Persisted chat history
+ │   │       ├── analytics.service.js       # Usage & growth metrics
+ │   │       └── admin.service.js           # Admin-only operations
+ │   ├── index.html
+ │   ├── vite.config.js
+ │   ├── package.json
+ │   └── .env.example
  │
- ├── 📂 server/                          # Node.js Backend
+ ├── 📂 server/                              # Node.js + Express + Socket.io Backend
+ │   ├── server.js                           # Entry: Express + Socket.io + all routes
  │   └── 📂 src/
- │       ├── 📂 models/                  # Mongoose schemas (User, Skill, Session…)
- │       ├── 📂 controllers/             # Business logic per feature
- │       ├── 📂 routes/                  # REST API route definitions
- │       ├── 📂 middleware/              # Auth, error handling, logging
- │       ├── 📂 services/                # Email, AI, analytics integrations
- │       └── server.js                   # Express + Socket.io entry point
+ │       ├── 📂 models/                      # Mongoose schemas
+ │       │   ├── user.model.js              # Users, skills, roles, credit balance
+ │       │   ├── session.model.js           # Session lifecycle + call timer
+ │       │   ├── chatMessage.model.js       # Persisted in-session messages
+ │       │   ├── courses.model.js           # Course definitions & modules
+ │       │   ├── courseEnrollment.model.js  # User ↔ Course enrollment
+ │       │   ├── creditTransaction.model.js # Append-only credit ledger
+ │       │   ├── notification.model.js      # User notifications
+ │       │   ├── review.model.js            # Session reviews & ratings
+ │       │   └── analytics.model.js         # Platform event tracking
+ │       ├── 📂 controllers/                # Business logic — one per domain
+ │       │   ├── user.controller.js
+ │       │   ├── session.controller.js
+ │       │   ├── courses.controller.js
+ │       │   ├── credits.controller.js
+ │       │   ├── matches.controller.js
+ │       │   ├── review.controller.js
+ │       │   ├── notification.controller.js
+ │       │   ├── chat.controller.js
+ │       │   ├── analytics.controller.js
+ │       │   ├── admin.controller.js
+ │       │   └── userActivity.controller.js
+ │       ├── 📂 routes/                     # REST API route definitions
+ │       │   ├── user.routes.js             # /user/*
+ │       │   ├── session.routes.js          # /sessions/*
+ │       │   ├── courses.routes.js          # /courses/*
+ │       │   ├── credits.routes.js          # /credits/*
+ │       │   ├── matches.route.js           # /matches/*
+ │       │   ├── review.routes.js           # /reviews/*
+ │       │   ├── notification.routes.js     # /notifications/*
+ │       │   ├── chat.routes.js             # /chat/*
+ │       │   ├── analytics.routes.js        # /analytics/*
+ │       │   ├── activity.routes.js         # /activity/*
+ │       │   └── admin.routes.js            # /admin/*
+ │       ├── 📂 middleware/
+ │       │   └── authVerify.js              # JWT cookie verification
+ │       └── 📂 utils/
+ │           ├── connectDB.js               # MongoDB connection
+ │           └── socket.js                  # Socket.io initializer
  │
- ├── 📂 docs/                            # API reference, architecture, deployment
- └── README.md
+ └── README.md                              # You are here
 ```
 
 ---
@@ -214,10 +291,10 @@ UpSkillr is built for **performance, real-time collaboration, and scale**.
 
 | Requirement | Version |
 |---|---|
-| Node.js | v18.x or higher |
-| npm | v9.x or higher |
-| MongoDB | Local or [Atlas](https://cloud.mongodb.com) |
-| Git | Any recent version |
+| **Node.js** | v18.x or higher |
+| **npm** | v9.x or higher |
+| **MongoDB** | Local or [Atlas cloud](https://cloud.mongodb.com) |
+| **Git** | Any recent version |
 
 ### 1. Clone the Repository
 
@@ -229,102 +306,219 @@ cd upskillr
 ### 2. Install Dependencies
 
 ```bash
-# Install frontend dependencies
+# Frontend
 cd client && npm install
 
-# Install backend dependencies
+# Backend
 cd ../server && npm install
 ```
 
 ### 3. Configure Environment Variables
 
-Copy the example env files and fill in your values:
-
-```bash
-cp client/.env.example client/.env
-cp server/.env.example server/.env
-```
-
-**`client/.env`:**
+**`client/.env`** *(copy from `.env.example`)*:
 ```env
-VITE_API_URL=http://localhost:6000
-VITE_SOCKET_URL=http://localhost:6000
+VITE_API_URL=http://localhost:5000
+VITE_SOCKET_URL=http://localhost:5000
 VITE_ENV=development
 ```
 
-**`server/.env`:**
+**`server/.env`** *(copy from `.env.example`)*:
 ```env
 # Server
-PORT=6000
+PORT=5000
 NODE_ENV=development
 
 # Database
-MONGODB_URI=mongodb://localhost:27017/upskillr
+MONGO_DB_URI=mongodb://localhost:27017/upskillr
+# For MongoDB Atlas:
+# MONGO_DB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/upskillr
 
-# Authentication
-JWT_SECRET=your-super-secret-jwt-key-change-in-production
-JWT_EXPIRE=7d
-
-# Email (Optional)
-SENDGRID_API_KEY=your-sendgrid-key
-SENDER_EMAIL=noreply@upskillr.com
-
-# AI Features (Optional)
-OPENAI_API_KEY=your-openai-api-key
+# Authentication (generate secure random strings for production)
+ACCESS_TOKEN_SECRET=your-access-token-secret
+REFRESH_TOKEN_SECRET=your-refresh-token-secret
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_EXPIRY=10d
 
 # CORS
-CORS_ORIGIN=http://localhost:5173
+CLIENT_ORIGIN=http://localhost:5173
 ```
 
-### 4. Run in Development Mode
+### 4. Start Development Servers
 
 ```bash
-# Terminal 1 — Start the backend (port 6000)
+# Terminal 1 — Backend API + Socket.io (port 5000)
 cd server && npm run dev
 
-# Terminal 2 — Start the frontend (port 5173)
+# Terminal 2 — Frontend (port 5173)
 cd client && npm run dev
 ```
 
-Open **http://localhost:5173** in your browser.
+Open **[http://localhost:5173](http://localhost:5173)** in your browser.
 
-### 5. Verify Your Setup
+### 5. Verify the Setup
 
-- ✅ Frontend loads at `http://localhost:5173`
-- ✅ API health check responds at `http://localhost:6000/api/health`
-- ✅ WebSocket connection established (visible in browser DevTools console)
+```bash
+# Check the API is alive
+curl http://localhost:5000
+# → { "status": "ok", "app": "UpSkillr API" }
+```
+
+| Check | Expected Result |
+|---|---|
+| Frontend | Loads at `http://localhost:5173` |
+| Backend | Responds at `http://localhost:5000` |
+| Database | Console prints `✅ Server running on port 5000 — MongoDB connected` |
+| WebSocket | Connection established (visible in browser DevTools → Network → WS) |
 
 ---
 
-## 📡 API Documentation
+## 📡 API Overview
 
-### Authentication
+The API base URL is `http://localhost:5000` in development. All protected endpoints require a valid `accessToken` cookie (set automatically on login).
 
-| Method | Endpoint | Description |
+### Route Namespaces
+
+| Namespace | Prefix | Description |
 |---|---|---|
-| `POST` | `/api/auth/register` | Create a new account |
-| `POST` | `/api/auth/login` | Authenticate and receive token |
-| `POST` | `/api/auth/logout` | Invalidate session |
-| `GET` | `/api/auth/me` | Get current user profile |
+| Users | `/user` | Registration, login, logout, profile, skills |
+| Sessions | `/sessions` | Create, manage, and end skill swap / mentorship sessions |
+| Matches | `/matches` | AI-powered peer and mentor discovery |
+| Courses | `/courses` | Course CRUD, module management, enrollment |
+| Credits | `/credits` | Balance inquiry, transaction history |
+| Reviews | `/reviews` | Post-session ratings and feedback |
+| Notifications | `/notifications` | Fetch and mark-read user notifications |
+| Chat | `/chat` | Retrieve persisted in-session message history |
+| Analytics | `/analytics` | Personal usage stats and growth metrics |
+| Activity | `/activity` | Activity feed and learning streak tracking |
+| Admin | `/admin` | Platform-wide user management and metrics *(admin only)* |
 
-### Skills
+> 📘 Full endpoint reference with request/response schemas: [server/README.md](./server/README.md)
 
-| Method | Endpoint | Description |
+---
+
+## 🔌 Real-Time Architecture
+
+UpSkillr's real-time layer is built on **Socket.io 4** and serves three core use cases:
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Socket.io Server                      │
+│                                                          │
+│  ┌────────────────┐  ┌────────────────┐  ┌───────────┐  │
+│  │  Live Chat     │  │  WebRTC        │  │  Push     │  │
+│  │  (persisted    │  │  Signaling     │  │  Notifs   │  │
+│  │  to MongoDB)   │  │  (offer/answer │  │           │  │
+│  │                │  │  /ICE relay)   │  │           │  │
+│  └────────────────┘  └────────────────┘  └───────────┘  │
+│                                                          │
+│  Auth: JWT verified from httpOnly cookie on connect      │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Key Events
+
+| Event | Direction | Description |
 |---|---|---|
-| `GET` | `/api/skills` | List all skills with filters (`?category=&level=&page=`) |
-| `POST` | `/api/skills` | Create a new skill listing |
-| `GET` | `/api/skills/:id` | Get skill details, mentors, and peers |
+| `join_room` | Client → Server | Join a session's chat and call room |
+| `send_message` | Client → Server | Send a message (persisted to DB, broadcast to room) |
+| `call_ready` | Client → Server | Signal readiness — server tracks when both users are ready |
+| `call_leave` | Client → Server | Leave call and flush elapsed minutes to the session record |
+| `webrtc_signal` | Client ↔ Server | Relay WebRTC offer, answer, and ICE candidates |
+| `call_active` | Server → Client | Both participants ready — call begins |
+| `new_notification` | Server → Client | Real-time notification push |
 
-### Sessions
+---
 
-| Method | Endpoint | Description |
+## 🛡️ Security
+
+### Authentication Model
+
+Auth tokens are stored in **`httpOnly` cookies** — inaccessible to JavaScript, immune to XSS by design.
+
+- `accessToken` — Short-lived (1 day). Verified on every protected API request.
+- `refreshToken` — Long-lived (10 days). Used to issue new access tokens silently.
+- Socket.io connections are authenticated via the same cookie on handshake.
+
+### HTTP Security Stack
+
+| Layer | Package | Protection |
 |---|---|---|
-| `POST` | `/api/sessions` | Initiate a skill swap or mentorship session |
-| `GET` | `/api/sessions/:id` | Get session details and chat history |
-| `POST` | `/api/sessions/:id/end` | End session and submit feedback |
-| `POST` | `/api/sessions/:id/messages` | Send in-session chat message |
+| Security Headers | Helmet 8 | X-Frame-Options, HSTS, CSP |
+| Rate Limiting | express-rate-limit 8 | 200 req / 15 min per IP |
+| CORS | cors | Locked to `CLIENT_ORIGIN` env var |
+| Password Hashing | bcrypt 6 | Configurable salt rounds |
+| Query Safety | Mongoose ODM | Prevents NoSQL injection |
+| Input Validation | Controller-level | Server-side before every DB write |
 
-> 📘 Full API reference: [docs/API.md](./docs/API.md)
+### WebRTC Security
+
+- **DTLS-SRTP** encryption on all peer media connections.
+- **ICE candidate filtering** to prevent unintended IP disclosure.
+- **Perfect Negotiation pattern** — eliminates WebRTC race conditions.
+
+### Developer Security Checklist
+
+- [ ] Never commit `.env` files — always use `.env.example` as the template.
+- [ ] Regenerate both JWT secrets before every production deployment.
+- [ ] Run `npm audit --audit-level=high` before shipping a release.
+- [ ] Review CORS `CLIENT_ORIGIN` before going live — must not be `*`.
+- [ ] Ensure HTTPS is enforced in production (no plain HTTP).
+
+---
+
+## 🗺️ Roadmap
+
+### ✅ Phase 0 — Foundation *(Shipped)*
+
+> The full core platform is live and functional.
+
+- [x] User auth with JWT access + refresh token cookie flow
+- [x] Profile system with skill listings (offered and wanted)
+- [x] AI-powered peer and mentor matching
+- [x] Skill Swap sessions with WebRTC video + real-time chat
+- [x] Skill Credits economy (earn, spend, track)
+- [x] Paid mentorship sessions with credit settlement
+- [x] Post-session reviews and rating system
+- [x] Course Creator Dashboard for instructors
+- [x] Real-time notifications via Socket.io
+- [x] Admin dashboard for platform management
+- [x] Call timer tracked server-side for accurate credit billing
+
+---
+
+### ⚙️ Phase 1 — AI & Intelligence *(In Progress)*
+
+- [ ] **LLM Roadmap Generator** — GPT-powered personalized learning paths from goal + current skill
+- [ ] **Vector-based Matching** — Embeddings for semantic skill compatibility (beyond keyword matching)
+- [ ] **Analytics Dashboard** — Skill growth trends, session hour breakdowns, peer comparisons
+- [ ] **Smart Nudges** — Context-aware notifications (streak reminders, match suggestions)
+
+---
+
+### 🚀 Phase 2 — Community & Collaboration *(Planned)*
+
+- [ ] **Full Cohort Engine** — Event scheduling, attendance tracking, progress milestones
+- [ ] **Knowledge Base** — Persistent, searchable repository built from session notes
+- [ ] **Group Channels** — Discord-style community channels within cohorts
+- [ ] **Collaborative Challenges** — Team-based coding problems and group builds
+
+---
+
+### 🎮 Phase 3 — Gamification & Marketplace *(Planned)*
+
+- [ ] **Code Legend Tiers** — Expanded rank system with unlockable badges and titles
+- [ ] **Credit Marketplace** — Buy, sell, and gift Skill Credits with fraud-proof settlement
+- [ ] **Global Leaderboards** — Weekly and monthly rankings by sessions, ratings, and impact
+- [ ] **Shareable Achievement Cards** — Auto-generated milestone cards for LinkedIn / Twitter
+
+---
+
+### 📱 Phase 4 — Mobile & Accessibility *(Future)*
+
+- [ ] Native iOS & Android apps (React Native)
+- [ ] Offline session playback for recorded sessions
+- [ ] WCAG 2.1 AA accessibility audit and remediation
+- [ ] Multi-language support (i18n / l10n)
 
 ---
 
@@ -332,142 +526,68 @@ Open **http://localhost:5173** in your browser.
 
 ### Code Conventions
 
-- **ES6+** with async/await throughout — no callback pyramids.
-- **Functional React components** with hooks — no class components.
-- **camelCase** for variables/functions; **PascalCase** for components and models.
-- **JSDoc** for all exported functions; inline comments for non-obvious logic.
+| Rule | Convention |
+|---|---|
+| Module system | ESM (`import/export`) — both client and server use `"type": "module"` |
+| Async | `async/await` throughout — no `.then()` chains or callbacks |
+| Components | Functional React components with hooks — no class components |
+| Naming | `camelCase` for functions/variables; `PascalCase` for components and models |
+| API calls | Always through `services/` — never call Axios directly from a component |
+| Error handling | `try/catch` in controllers, forwarded via `next(err)` to global handler |
 
-### Common Tasks
+### Adding a New Feature — Standard Pattern
 
-<details>
-<summary><strong>Add a new skill category</strong></summary>
-
-1. Update `server/src/models/Skill.js` with the new enum value.
-2. Add UI for it in `client/src/components/features/SkillSwap/`.
-3. Add or update the route in `server/src/routes/skillRoutes.js`.
-4. Test via Postman or the frontend.
-
-</details>
-
-<details>
-<summary><strong>Create a new page</strong></summary>
-
-1. Create a component in `client/src/pages/`.
-2. Register the route in `client/src/App.jsx`.
-3. Add the API service in `client/src/services/`.
-4. Link from the navigation header.
-
-</details>
-
-<details>
-<summary><strong>Add a Socket.io event</strong></summary>
-
-1. Define the listener in `client/src/hooks/useSocket.js`.
-2. Emit the event from your component.
-3. Handle it in `server/src/server.js` socket handler.
-4. Broadcast to relevant connected clients.
-
-</details>
-
-### Running Tests
-
-```bash
-cd client && npm test        # Frontend tests
-cd server && npm test        # Backend tests
-npm run lint                  # ESLint check
-npm run format                # Prettier formatting
+```
+1. Model      → src/models/[feature].model.js
+2. Controller → src/controllers/[feature].controller.js
+3. Routes     → src/routes/[feature].routes.js
+4. Mount      → server.js: app.use('/feature', featureRouter)
+5. Service    → client/src/services/[feature].service.js
+6. Page/UI    → client/src/pages/FeaturePage.jsx + register in App.jsx
 ```
 
----
+### Running Checks
 
-## 🛡️ Security & Best Practices
+```bash
+# Client
+cd client
+npm run lint       # ESLint (flat config v9)
+npm run build      # Verify production build compiles cleanly
 
-### Authentication & Authorization
-- **JWT** stored in `httpOnly` cookies — not localStorage. XSS-safe by default.
-- **CORS** locked to trusted origins only.
-- **Bcrypt** password hashing (salt rounds ≥ 10).
-
-### Data Protection
-- **HTTPS enforced** in production — no plain HTTP.
-- **Server-side input validation** on every endpoint.
-- **Mongoose ODM** sanitizes queries against NoSQL injection.
-- **React's automatic escaping** + DOMPurify for user-generated content.
-
-### WebRTC Security
-- **DTLS-SRTP** encryption on all peer connections.
-- **ICE candidate filtering** to prevent IP leakage.
-- **Perfect Negotiation pattern** for robust, race-condition-free signaling.
-
-### Developer Checklist
-- [ ] Never commit `.env` files — use `.env.example` as the template.
-- [ ] Rotate JWT secrets on every production deployment.
-- [ ] Apply rate limiting to all public API endpoints.
-- [ ] Run `npm audit` and resolve critical vulnerabilities before shipping.
-- [ ] Log all security events (failed logins, privilege escalations).
-
----
-
-## 🗓️ Roadmap
-
-### ✅ Phase 0 — Foundation *(Shipped)*
-- User auth, profiles, and skill listings
-- Skill Swap with WebRTC video + chat
-- Credit system for paid mentorship
-- Community discovery and cohort pages
-
----
-
-### ⚙️ Phase 1 — AI Integration *(In Progress)*
-- [ ] **Recommendation Engine** — Vector-based mentor/peer matching
-- [ ] **Roadmap Generator** — LLM-powered personalized learning paths
-- [ ] **Analytics Dashboard** — Skill growth trends and session insights
-- [ ] **Smart Notifications** — Context-aware alerts and nudges
-
----
-
-### 🚀 Phase 2 — Community & Collaboration *(Planned)*
-- [ ] Full cohort management with event scheduling
-- [ ] Persistent Knowledge Base for session notes and resources
-- [ ] Group channels (Discord-style) within communities
-- [ ] Collaborative coding challenges and team builds
-
----
-
-### 🎮 Phase 3 — Gamification & Marketplace *(Planned)*
-- [ ] Expanded rank system: Code Legend tiers and badges
-- [ ] Credit Marketplace — buy, sell, and transfer Skill Credits
-- [ ] Global weekly/monthly leaderboards
-- [ ] Achievement system with shareable milestone cards
-
----
-
-### 📱 Phase 4 — Mobile & Scale *(Future)*
-- [ ] Native iOS & Android apps (React Native)
-- [ ] Offline session playback
-- [ ] Full accessibility audit (WCAG 2.1 AA)
-- [ ] Multi-language support (i18n)
+# Server
+cd server
+npm run dev        # Nodemon dev server
+```
 
 ---
 
 ## 🤝 Contributing
 
-We're building UpSkillr in the open and **welcome contributors at all levels**.
+We're building UpSkillr in the open and **actively welcome contributors** — from first-timers to framework veterans.
 
-### How to Contribute
+### How to Get Started
 
-1. **Fork** the repository on GitHub.
-2. **Create** a feature branch: `git checkout -b feature/your-feature-name`
-3. **Commit** with clear, descriptive messages.
-4. **Push** to your fork and open a **Pull Request** against `main`.
+1. **Browse** [open issues](https://github.com/yourusername/upskillr/issues) — look for `good first issue` tags.
+2. **Fork** the repository and clone your fork locally.
+3. **Create** a branch: `git checkout -b feature/your-feature-name`
+4. **Build and test** your changes locally.
+5. **Push** and open a **Pull Request** against the `main` branch.
 
-### Pull Request Standards
+### PR Standards
 
-- Reference the related issue in your PR description (`Closes #123`).
-- Include screenshots or recordings for any UI changes.
-- Update relevant documentation and tests.
+- Link the related issue in your PR description (`Closes #123`).
+- Include screenshots or a short screen recording for any UI changes.
 - Keep PRs focused — one feature or fix per PR.
+- Ensure ESLint passes before submitting: `npm run lint`.
 
-> 📘 Detailed guidelines: [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)
+### Areas Where We Need Help
+
+| Area | Examples |
+|---|---|
+| 🧪 Testing | Unit tests for controllers, integration tests for API routes |
+| 🎨 UI/UX | Component polish, accessibility improvements, mobile layouts |
+| 🤖 AI/ML | Improving the matching algorithm, roadmap generation quality |
+| 📖 Docs | API documentation, architecture diagrams, video walkthroughs |
 
 ---
 
@@ -476,23 +596,26 @@ We're building UpSkillr in the open and **welcome contributors at all levels**.
 | Channel | Purpose |
 |---|---|
 | 🐛 [GitHub Issues](https://github.com/yourusername/upskillr/issues) | Bug reports and feature requests |
-| 💬 [GitHub Discussions](https://github.com/yourusername/upskillr/discussions) | Questions, ideas, and brainstorming |
-| 🎮 [Discord](https://discord.gg/upskillr) | Real-time community chat |
-| 📧 [support@upskillr.com](mailto:support@upskillr.com) | Urgent or private matters |
+| 💬 [GitHub Discussions](https://github.com/yourusername/upskillr/discussions) | Questions, ideas, architecture brainstorming |
+| 🎮 [Discord](https://discord.gg/upskillr) | Real-time community chat and contributor coordination |
+| 📧 [support@upskillr.com](mailto:support@upskillr.com) | Private or urgent matters |
 
-### Quick Links
+---
 
-- 📖 [Full Documentation](./docs/)
-- 🔌 [API Reference](./docs/API.md)
-- 🏗️ [Architecture Overview](./docs/ARCHITECTURE.md)
-- ❓ [FAQ](./docs/FAQ.md)
+## 📚 Repository Map
+
+| Document | Purpose |
+|---|---|
+| [README.md](./README.md) | This file — product overview and monorepo guide |
+| [client/README.md](./client/README.md) | Frontend architecture, routing, state, services |
+| [server/README.md](./server/README.md) | Backend API, data models, WebSocket events, security |
 
 ---
 
 ## 📄 License
 
-UpSkillr is open-source software licensed under the **[MIT License](./LICENSE)**.  
-You're free to use, modify, and distribute it — commercially or otherwise.
+UpSkillr is open-source software licensed under the **[MIT License](./LICENSE)**.
+Free to use, modify, and distribute — commercially or otherwise. Attribution appreciated.
 
 ---
 
