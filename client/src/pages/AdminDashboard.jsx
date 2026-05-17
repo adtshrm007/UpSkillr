@@ -102,7 +102,7 @@ export default function AdminDashboard() {
                         </tr>
                       ))
                     : users.map((u) => (
-                        <tr key={u._id} className="border-b border-white/5 hover:bg-white/[0.02] transition-colors">
+                        <tr key={u._id} className="border-b border-white/5 hover:bg-white/2 transition-colors">
                           <td className="py-3 px-2">
                             <div className="flex items-center gap-2">
                               <div className="w-7 h-7 rounded-full bg-[#4F86C6]/20 flex items-center justify-center text-[#4F86C6] font-black text-[10px]">
