@@ -34,7 +34,7 @@ export default function CreditsPage() {
           </header>
 
           {/* Balance Card */}
-          <div className="bg-gradient-to-br from-[#FF7849]/20 to-[#4F86C6]/10 border border-[#FF7849]/20 rounded-3xl p-8 relative overflow-hidden">
+          <div className="bg-linear-to-br from-[#FF7849]/20 to-[#4F86C6]/10 border border-[#FF7849]/20 rounded-3xl p-8 relative overflow-hidden">
             <div className="absolute -right-10 -top-10 w-48 h-48 bg-[#FF7849]/10 blur-[80px] rounded-full pointer-events-none" />
             <p className="text-[10px] uppercase tracking-[0.3em] text-[#FF7849] font-black mb-3">Current Balance</p>
             <div className="flex items-end gap-3">

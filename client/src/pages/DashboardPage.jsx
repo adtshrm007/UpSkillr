@@ -140,7 +140,7 @@ export default function DashboardPage() {
             </div>
 
             {/* UPGRADED PROGRESS SECTION (BENTO TILE) */}
-            <div className="xl:w-[400px] group relative bg-white/[0.03] backdrop-blur-xl border border-white/10 p-8 rounded-[2.5rem] flex flex-col gap-6 shadow-2xl hover:border-[#4F86C6]/30 transition-all duration-500 overflow-hidden">
+            <div className="xl:w-100 group relative bg-white/3 backdrop-blur-xl border border-white/10 p-8 rounded-[2.5rem] flex flex-col gap-6 shadow-2xl hover:border-[#4F86C6]/30 transition-all duration-500 overflow-hidden">
                <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#4F86C6]/10 blur-[50px] rounded-full pointer-events-none group-hover:bg-[#4F86C6]/20 transition-colors" />
                <div className="flex justify-between items-start relative z-10">
                 <div>
@@ -160,10 +160,10 @@ export default function DashboardPage() {
                 </div>
                 <div className="relative h-3 w-full bg-white/5 rounded-full overflow-hidden border border-white/5">
                   <div 
-                    className="absolute inset-y-0 left-0 bg-gradient-to-r from-[#4F86C6] via-[#6a9fd4] to-[#FF7849] rounded-full shadow-[0_0_15px_rgba(79,134,198,0.5)] transition-all duration-1000" 
+                    className="absolute inset-y-0 left-0 bg-linear-to-r from-[#4F86C6] via-[#6a9fd4] to-[#FF7849] rounded-full shadow-[0_0_15px_rgba(79,134,198,0.5)] transition-all duration-1000" 
                     style={{ width: `${Math.min(((user?.totalHoursTaught || 0) / 50) * 100, 100)}%` }}
                   >
-                    <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,255,255,0.1)_25%,transparent_25%,transparent_50%,rgba(255,255,255,0.1)_50%,rgba(255,255,255,0.1)_75%,transparent_75%,transparent)] bg-[length:30px_30px] animate-pulse" />
+                    <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,255,255,0.1)_25%,transparent_25%,transparent_50%,rgba(255,255,255,0.1)_50%,rgba(255,255,255,0.1)_75%,transparent_75%,transparent)] bg-size-[30px_30px] animate-pulse" />
                   </div>
                 </div>
                 <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-widest text-gray-600 italic">
@@ -175,7 +175,7 @@ export default function DashboardPage() {
           </header>
 
           {/* SYSTEM ALERT: DYNAMIC NOTIFICATION */}
-          <section className="relative group overflow-hidden bg-gradient-to-r from-[#FF7849]/10 via-[#111] to-transparent border border-white/5 p-6 rounded-[2rem] flex flex-col md:flex-row items-center justify-between gap-6 hover:border-[#FF7849]/30 transition-all duration-500">
+          <section className="relative group overflow-hidden bg-linear-to-r from-[#FF7849]/10 via-[#111] to-transparent border border-white/5 p-6 rounded-4xl flex flex-col md:flex-row items-center justify-between gap-6 hover:border-[#FF7849]/30 transition-all duration-500">
              <div className="absolute top-0 left-0 w-1 h-full bg-[#FF7849]" />
              <div className="flex items-center gap-6 relative z-10">
                 <div className="w-14 h-14 rounded-2xl bg-[#FF7849]/10 flex items-center justify-center border border-[#FF7849]/20 shadow-inner">
@@ -202,7 +202,7 @@ export default function DashboardPage() {
               
               {/* STAT BENTO TILES */}
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                <div className="xl:col-span-2 group relative bg-white/[0.02] border border-white/10 rounded-[2.5rem] p-8 overflow-hidden hover:bg-white/[0.04] transition-all">
+                <div className="xl:col-span-2 group relative bg-white/2 border border-white/10 rounded-[2.5rem] p-8 overflow-hidden hover:bg-white/4 transition-all">
                   <div className="relative z-10 flex justify-between items-center h-full">
                     <div>
                       <p className="text-[9px] uppercase font-black text-gray-500 tracking-[0.4em] mb-4">Total Skill Outflow</p>
@@ -242,7 +242,7 @@ export default function DashboardPage() {
 
               {/* SKILL REGISTRY */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <section className="bg-white/[0.02] border border-white/10 p-8 rounded-[2.5rem] hover:border-[#FF7849]/30 transition-all">
+                <section className="bg-white/2 border border-white/10 p-8 rounded-[2.5rem] hover:border-[#FF7849]/30 transition-all">
                   <div className="flex items-center justify-between mb-8">
                     <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-[#FF7849] flex items-center gap-3">
                       <span className="w-2 h-2 bg-[#FF7849] rounded-full animate-pulse" /> TEACH_STACK
@@ -262,7 +262,7 @@ export default function DashboardPage() {
                   </div>
                 </section>
 
-                <section className="bg-white/[0.02] border border-white/10 p-8 rounded-[2.5rem] hover:border-[#4F86C6]/30 transition-all">
+                <section className="bg-white/2 border border-white/10 p-8 rounded-[2.5rem] hover:border-[#4F86C6]/30 transition-all">
                    <div className="flex items-center justify-between mb-8">
                     <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-[#4F86C6] flex items-center gap-3">
                       <span className="w-2 h-2 bg-[#4F86C6] rounded-full" /> ACQUIRE_GOALS
@@ -283,7 +283,7 @@ export default function DashboardPage() {
               </div>
 
               {/* ACTIVE RELAYS (UPCOMING SESSIONS) */}
-              <section className="bg-white/[0.02] border border-white/10 p-8 rounded-[2.5rem] relative overflow-hidden group">
+              <section className="bg-white/2 border border-white/10 p-8 rounded-[2.5rem] relative overflow-hidden group">
                 <div className="absolute top-0 right-0 w-64 h-64 bg-[#4F86C6]/5 blur-[80px] rounded-full pointer-events-none group-hover:bg-[#4F86C6]/10 transition-colors" />
                 
                 <div className="flex justify-between items-center mb-8 relative z-10">
@@ -298,7 +298,7 @@ export default function DashboardPage() {
                     {[1, 2].map((i) => <div key={i} className="h-32 bg-white/5 rounded-3xl animate-pulse" />)}
                   </div>
                 ) : sessions.length === 0 ? (
-                  <div className="text-center py-12 border border-dashed border-white/5 rounded-3xl bg-white/[0.01]">
+                  <div className="text-center py-12 border border-dashed border-white/5 rounded-3xl bg-white/1">
                     <p className="text-gray-600 text-[10px] font-black uppercase tracking-[0.3em] italic">No active data relays located</p>
                     <Link to="/explore" className="text-[#4F86C6] text-[10px] font-black uppercase tracking-widest mt-4 inline-block hover:underline underline-offset-8">INITIATE_SEARCH_PROTOCOL</Link>
                   </div>
@@ -331,7 +331,7 @@ export default function DashboardPage() {
               </section>
 
               {/* TOP AUTHORITY MENTORS */}
-              <section className="bg-white/[0.02] border border-white/10 p-8 rounded-[2.5rem] relative overflow-hidden group">
+              <section className="bg-white/2 border border-white/10 p-8 rounded-[2.5rem] relative overflow-hidden group">
                  <div className="absolute top-0 left-0 w-48 h-48 bg-[#FF7849]/5 blur-[60px] rounded-full pointer-events-none group-hover:bg-[#FF7849]/10 transition-colors" />
                  
                  <div className="flex justify-between items-center mb-10 relative z-10">
@@ -345,11 +345,11 @@ export default function DashboardPage() {
 
                  {loadingMentors ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                       {[1, 2].map((i) => <div key={i} className="aspect-[4/3] bg-white/5 rounded-[2.5rem] animate-pulse" />)}
+                       {[1, 2].map((i) => <div key={i} className="aspect-4/3 bg-white/5 rounded-[2.5rem] animate-pulse" />)}
                     </div>
                  ) : topMentors.length === 0 ? (
-                    <div className="text-center py-10 border border-dashed border-white/5 rounded-[2.5rem] bg-white/[0.01]">
-                       <p className="text-gray-600 text-[10px] font-black uppercase tracking-widest italic tracking-[0.2em]">Node scanning in progress...</p>
+                    <div className="text-center py-10 border border-dashed border-white/5 rounded-[2.5rem] bg-white/1">
+                       <p className="text-gray-600 text-[10px] font-black uppercase tracking-widest italic">Node scanning in progress...</p>
                     </div>
                  ) : (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -365,7 +365,7 @@ export default function DashboardPage() {
             <div className="lg:col-span-4 space-y-6">
               
               {/* PLATFORM ANALYTICS */}
-              <section className="bg-white/[0.02] border border-white/10 rounded-[2.5rem] p-8 overflow-hidden">
+              <section className="bg-white/2 border border-white/10 rounded-[2.5rem] p-8 overflow-hidden">
                 <div className="flex justify-between items-center mb-10">
                   <h4 className="text-[10px] uppercase font-black tracking-[0.4em] text-gray-500">SYS_ACTIVITY</h4>
                   <div className="flex bg-black/50 p-1 rounded-xl border border-white/10">
@@ -392,7 +392,7 @@ export default function DashboardPage() {
               </section>
 
               {/* RECOMMENDED FOR YOU (BENTO SIDEBAR) */}
-              <section className="bg-white/[0.02] border border-white/10 rounded-[2.5rem] p-8 relative overflow-hidden">
+              <section className="bg-white/2 border border-white/10 rounded-[2.5rem] p-8 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-[#FF7849]/5 blur-[60px] rounded-full" />
                 <div className="flex justify-between items-center mb-8 relative z-10">
                   <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-[#4F86C6]">SYNAPTIC_MATCH</h4>
@@ -410,9 +410,9 @@ export default function DashboardPage() {
                     <div className="space-y-3">
                       <p className="text-[8px] uppercase font-black text-gray-600 tracking-[0.3em] mb-4 italic">Prioritized Nodes_</p>
                       {matches.slice(0, 3).map((m, i) => (
-                        <div key={m._id || i} onClick={() => navigate(`/user/${m._id}`)} className="group/match p-4 rounded-2xl bg-black/40 border border-transparent hover:border-white/10 hover:bg-white/[0.03] transition-all cursor-pointer">
+                        <div key={m._id || i} onClick={() => navigate(`/user/${m._id}`)} className="group/match p-4 rounded-2xl bg-black/40 border border-transparent hover:border-white/10 hover:bg-white/3 transition-all cursor-pointer">
                           <div className="flex items-center gap-4">
-                            <div className="w-10 h-10 bg-gradient-to-br from-[#1A1A1A] to-[#0A0A0A] border border-white/10 rounded-xl flex items-center justify-center text-white font-black text-xs uppercase shadow-lg group-hover/match:scale-105 transition-transform duration-500">
+                            <div className="w-10 h-10 bg-linear-to-br from-[#1A1A1A] to-[#0A0A0A] border border-white/10 rounded-xl flex items-center justify-center text-white font-black text-xs uppercase shadow-lg group-hover/match:scale-105 transition-transform duration-500">
                                {m.name?.charAt(0)}
                             </div>
                             <div className="flex-1 min-w-0">
@@ -435,7 +435,7 @@ export default function DashboardPage() {
               </section>
 
               {/* NETWORK PULSE */}
-              <section className="bg-gradient-to-br from-[#111] to-[#080808] border border-white/10 rounded-[2.5rem] p-8">
+              <section className="bg-linear-to-br from-[#111] to-[#080808] border border-white/10 rounded-[2.5rem] p-8">
                  <div className="flex justify-between items-center mb-8">
                     <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-white">COMMUNITY_CORE</h4>
                     <div className="flex items-center gap-2">
@@ -445,7 +445,7 @@ export default function DashboardPage() {
                  </div>
                  
                  <div className="space-y-3 mb-10">
-                    <div className="p-4 bg-white/[0.03] border border-white/5 rounded-2xl hover:bg-white/[0.05] transition-colors cursor-pointer group/node">
+                    <div className="p-4 bg-white/3 border border-white/5 rounded-2xl hover:bg-white/5 transition-colors cursor-pointer group/node">
                        <div className="flex items-center gap-4">
                           <div className="w-8 h-8 rounded-xl bg-[#FF7849]/10 flex items-center justify-center">⚡</div>
                           <div>
@@ -454,7 +454,7 @@ export default function DashboardPage() {
                           </div>
                        </div>
                     </div>
-                    <div className="p-4 bg-white/[0.03] border border-white/5 rounded-2xl hover:bg-white/[0.05] transition-colors cursor-pointer group/node">
+                    <div className="p-4 bg-white/3 border border-white/5 rounded-2xl hover:bg-white/5 transition-colors cursor-pointer group/node">
                        <div className="flex items-center gap-4">
                           <div className="w-8 h-8 rounded-xl bg-[#4F86C6]/10 flex items-center justify-center">⚙️</div>
                           <div>
