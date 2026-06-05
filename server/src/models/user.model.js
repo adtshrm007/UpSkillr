@@ -9,6 +9,7 @@ const skillSchema = new mongoose.Schema({
     enum: ["Beginner", "Intermediate", "Advanced", "Expert"],
     default: "Beginner",
   },
+  
 });
 
 const availabilitySchema = new mongoose.Schema({
