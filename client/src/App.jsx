@@ -17,6 +17,7 @@ import CreditsPage from "./pages/CreditsPage.jsx";
 import AdminDashboard from "./pages/AdminDashboard.jsx";
 import LearningRoom from "./pages/LearningRoom.jsx";
 import CourseCreatorDashboard from "./pages/CourseCreatorDashboard.jsx";
+import GenerateRoadmap from "./pages/GenerateRoadmap.jsx";
 
 import { TopTeachers } from "./pages/TopTeachers.jsx";
 
@@ -146,6 +147,14 @@ export default function App() {
               element={
                 <ProtectedRoute adminOnly>
                   <AdminDashboard />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/roadmap"
+              element={
+                <ProtectedRoute>
+                  <GenerateRoadmap />
                 </ProtectedRoute>
               }
             />
