@@ -39,7 +39,7 @@ export default function AITechRoadmap() {
             </div>
           </div>
 
-          <Link to="/explore">
+          <Link to="/roadmap">
             <button className="mt-8 bg-white text-black px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-[#FF7849] hover:text-black transition-all duration-300 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
               Generate My Roadmap
             </button>
